@@ -10,7 +10,7 @@ public class HelloWorldController {
     @GetMapping("/hello-world")
     @ResponseBody
     public String sayHelloWorld() {
-        return "Hello Java123";
+        return "Hello Java12:";
     }
 
 }
