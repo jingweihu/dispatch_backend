@@ -1,0 +1,7 @@
+CREATE TABLE customer (
+   id SERIAL PRIMARY KEY,
+   username VARCHAR(50) UNIQUE NOT NULL,
+   password VARCHAR(50) NOT NULL,
+   create_on TIMESTAMP NOT NULL DEFAULT NOW(),
+   is_active BOOLEAN DEFAULT true
+);
