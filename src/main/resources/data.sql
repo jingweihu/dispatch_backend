@@ -1,0 +1,1 @@
+INSERT INTO customer (username, password) VALUES ('jingweih', '123456');
