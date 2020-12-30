@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorldController {
+public class VersionController {
 
-    @GetMapping("/hello-world")
+    @GetMapping("/version")
     @ResponseBody
-    public String sayHelloWorld() {
-        return "Hello Java12343";
+    public String version() {
+        return "0.0.1";
     }
 
 }
