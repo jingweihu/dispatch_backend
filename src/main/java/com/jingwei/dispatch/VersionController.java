@@ -10,7 +10,7 @@ public class VersionController {
     @GetMapping("/version")
     @ResponseBody
     public String version() {
-        return "0.0.1";
+        return "0.0.2";
     }
 
 }
